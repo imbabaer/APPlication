@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TabHost;
 
 public class MainActivity extends AppCompatActivity {
     public final static String application_EXTRA_MESSAGE = "com.example.trubenssd.application";
@@ -12,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
     }
     /** Called when the user clicks the Send button */
     public void sendMessage(View view) {
